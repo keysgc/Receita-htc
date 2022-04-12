@@ -1,0 +1,162 @@
+body {
+  background-color: #f0f0f0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 798px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #ff6a28;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.sub-title {
+  margin-top: 2px;
+  font-size: 16px;
+  color: #61656d;
+}
+
+.image {
+  margin-top: 14px;
+  width: 100%;
+}
+
+.box-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.info-box {
+  margin-top: 10px;
+  width: 118px;
+  height: 85px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-text {
+  text-transform: uppercase;
+  color: #61656d;
+  margin-top: 8px;
+}
+
+.info-strong-text {
+  text-transform: uppercase;
+  color: #ff6a28;
+  margin-top: 6px;
+}
+
+.account-box {
+  margin-top: 10px;
+  width: 238px;
+  height: 85px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-image {
+  width: 60px;
+  height: 60px;
+}
+
+.account-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11px;
+}
+
+.account-name {
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  color: #ff6a28;
+}
+
+.account-info {
+  color: #61656d;
+  font-size: 14px;
+}
+
+.ingredients-box {
+  margin-top: 37px;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  width: 20px;
+}
+
+.icon-title {
+  margin-left: 8px;
+}
+
+.list {
+  /* padding-left: 20px; */
+  margin-top: 16px;
+  list-style-position: inside;
+}
+
+.list-item {
+  margin-bottom: 10px;
+  color: #61656d;
+}
+
+.instructions-box {
+  margin-top: 16px;
+}
+
+.instructions-item {
+  margin-bottom: 20px;
+}
+
+.add-info-box {
+  margin-top: 16px;
+}
+
+.secundary-title {
+  background-color: #f0f0f0;
+  padding: 8px 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #61656d;
+  text-align: center;
+}
+
+.add-info-box {
+  margin-top: 16px;
+}
+
+.add-info-box p {
+  margin-top: 16px;
+  color: #61656d;
+  font-size: 14px;
+}
